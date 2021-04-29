@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    android:padding="5dp"
+    app:cardElevation="5dp"
+    android:layout_gravity="center"
+    app:cardCornerRadius="10dp">
+
+    <LinearLayout
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            />
+
+        <ImageView
+            android:id="@+id/iv_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            />
+
+        <Button
+            android:id="@+id/bt_success"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Success"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
